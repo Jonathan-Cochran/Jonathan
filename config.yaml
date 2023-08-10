@@ -109,9 +109,9 @@ params:
     menus:
       disableAbout: false
       disableExperience: false
-      disableEducation: false
       disableProjects: false
       disableAchievements: false
+      disableEducation: false
       disableContact: false
 
   # Hero
@@ -250,39 +250,23 @@ params:
           - Associate Choice award winner
           - Presented on Agile Leadership at TechCon
 
-  # Education
-  education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Bachelor of Computer Science"
-        school:
-          name: "Bowling Green State Universtiy"
-          url: "https://www.bgsu.edu/"
-        date: "1996 - 2000"
-        content: |-
-          Extracurricular Activities
-            - ACM Member
-            - Club Water Polo
-
 
   # Achievements
   achievements:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Cardinal Health - Innovation Award Winner for Vision as a Capability
+        content: Won teh applied learning Innovation Award for the work with leveraging Vision Technology as a capability across multiple business areas.
+        #url: "https://github.com/gurusabarish/hugo-profile"
+        image: /images/CAHInnovationAchievement.jpg
       - title: Buckeyes For A Cure
         content: Co-Founded the creation of the worlds largest buckeye necklace to help support the Stefanie Spielman fund for breast cancer research.
         url: https://www.buckeyesforacure.com
         image: /images/BFACAchievement.JPG
       - title: 2011 Nationwide IT Associate Advisory Group
         content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Cardinal Health - Innovation Award Winner for Vision as a Capability
-        content: Won teh applied learning Innovation Award for the work with leveraging Vision Technology as a capability across multiple business areas.
-        #url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
+        image: /images/NWAdvisoryGroupAchievement.jpg
       - title: Nationwide - 2014 OYS Continuous Improvement IT Star Award
         content: Reconized for helping drive continous improvement across our organization.
       - title: Nationwide - 2013 IT Outstanding Contribution Award Finalist
@@ -347,6 +331,22 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Bachelor of Computer Science"
+        school:
+          name: "Bowling Green State Universtiy"
+          url: "https://www.bgsu.edu/"
+        date: "1996 - 2000"
+        content: |-
+          Extracurricular Activities
+            - ACM Member
+            - Club Water Polo
 
   #Contact
   contact:
