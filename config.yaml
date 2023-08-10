@@ -1,4 +1,4 @@
-#baseURL: "https://jonathan-cochran.github.io/Jonathan"
+baseURL: "https://jonathan-cochran.github.io/Jonathan"
 languageCode: "en-us"
 title: "Jonathan Cochran Portfolio"
 theme: hugo-profile
