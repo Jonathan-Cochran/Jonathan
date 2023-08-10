@@ -275,7 +275,7 @@ params:
       - title: Buckeyes For A Cure
         content: Co-Founded the creation of the worlds largest buckeye necklace to help support the Stefanie Spielman fund for breast cancer research.
         url: https://www.buckeyesforacure.com
-        image: /images/BFACAchievement.jpg
+        image: /images/BFACAchievement.JPG
       - title: 2011 Nationwide IT Associate Advisory Group
         content: Developed a product using Artificial Intelligence.
         image: /images/achievment.jpg
@@ -297,46 +297,52 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Hugo Profile Site
+        content: Leverage Hugo and GitHub pages for my personal portfolio. Also utilize GitHub actions to auto deploy.
+        image: /images/projects/PortfolioScreen.PNG
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: An Introvert's Insights
+          link: https://jonathan-cochran.github.io/
         badges:
+          - "GitHub"
           - "Hugo"
           - "Bootstrap"
           - "Javascript"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:?subject=Hugo%20Profile%20Site&body=Check%20it%20out:%20https%3a%2f%2fjonathan-cochran.github.io%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/Jonathan-Cochran/jonathan-cochran.github.io
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: College Grant Wizard
+        content: A web app to that leverages OpenAI's GPT API to take student information and find the most appropriate grants / scholarships for them.
+        image: /images/projects/CollegeGrantWizardScreen.PNG
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: College Grant Wizard
+          link: https://collegegrantwizard.com/
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Wasp-Lang"
+          - "GPT 3.5 API"
+          - "PostgreSQL"
+          - "fly.io"
+          - "Netlify"
+          - "Stripe"
+          - "CSS"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/Jonathan-Cochran/GrantAssistant
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Buckeyes For A Cure
+        content: Created a web application to support the Non-Profit I helped co-found. The app would allow people to purchase a buckeye to be part of the worlds largest buckeye necklace. User could then see a picture of their actual numbered buckeye.
+        image: /images/projects/BFACScreen.PNG
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Buckeyes For A Cure
+          link: http://www.buckeyesforacure.com/
         badges:
-          - "Hugo"
-          - "Bootstrap"
+          - "PHP"
+          - "MySQL"
+          - "HTML"
+          - "WordPress"
           - "Javascript"
         links:
           - icon: fab fa-github
@@ -396,3 +402,8 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
+#Code to add Github contributions calendar
+#<link rel="stylesheet" href="https://cdn.jsdelivr.net/github-calendar/latest/github-calendar.css">
+#<script src="https://cdn.jsdelivr.net/github-calendar/latest/github-calendar.min.js"></script>
+#GitHubCalendar(".calendar", "Jonathan-Cochran");
