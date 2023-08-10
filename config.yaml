@@ -1,6 +1,6 @@
 baseURL: "https://jonathan-cochran.github.io/"
 languageCode: "en-us"
-title: "Jonathan Cochran Portfolio"
+title: "Jonathan Cochran an Introvert's Insights"
 theme: hugo-profile
 
 outputs:
