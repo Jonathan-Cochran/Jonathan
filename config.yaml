@@ -119,8 +119,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Jonathan."
-    subtitle: "Delving into the innovative history of a digital introvert."
-    content: "A passionate innovator. I believe in the power of user empathy to transform businesses; by deeply understanding their needs, we can craft the next wave of innovative solutions."
+    subtitle: "I believe in the power of user empathy; by deeply understanding user needs, we can craft the next wave of innovative solutions." #"Delving into the innovative history of a digital introvert."
+#    content: "A passionate innovator. I believe in the power of user empathy to transform businesses; by deeply understanding their needs, we can craft the next wave of innovative solutions."
     image: /images/hero.jpg
     bottomImage:
       enable: true
