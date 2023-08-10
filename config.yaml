@@ -328,9 +328,9 @@ params:
           - "HTML"
           - "WordPress"
           - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+#        links:
+#          - icon: fab fa-github
+#            url: https://github.com/gurusabarish/HugoProfileV2
 
   # Education
   education:
