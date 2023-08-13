@@ -154,7 +154,7 @@ params:
       My expertise spans across AI, Vision Technology, Design Thinking, lean methodologies, and agile practices. My fervor isn't just limited to technology. I love the outdoors, spending time with my family, and I'm equally passionate about running. Well, "passionate" might be a strong word. Let's just say I run... occasionally.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few practices I've been focusing on recently:"
       items:
         - "Design Thinking"
         - "HTML"
