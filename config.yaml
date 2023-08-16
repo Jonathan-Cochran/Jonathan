@@ -1,6 +1,6 @@
 baseURL: "https://jonathan.roosterran.ch/"
 languageCode: "en-us"
-title: "Jonathan Cochran an Introvert's Insights"
+title: "An Introvert's Insights"
 theme: hugo-profile
 
 outputs:
